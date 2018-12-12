@@ -1,0 +1,18 @@
+.illustration {
+    float: left;
+    margin: 0 10px;
+}
+
+.outer {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.inner {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.inner-red { background-color: }

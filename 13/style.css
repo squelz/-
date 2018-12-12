@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    margin: 0;
+    padding: 5px;
+    background-color: aqua;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 20px;
+    bottom: 85%;
+    border: 5px solid black;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-left: 10px;
+    background-color: violet;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    top: 60%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    box-shadow: 10px 0 10px rgba(red, green, blue, alpha);
+}
+
+div {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 15%;
+    bottom: 15%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    border-right: 5px solid white;
+    box-sizing: border-box;
+}
+
+article {
+    background-color: slateblue;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    bottom: 0px;
+    left: 0;
+    right: 30%;
+    display: flex;
+    flex-flow: column;
+    border-right: 5px solid white;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: brown;
+    margin: 5px;
+    flex-grow: 1;
+    padding: 5px 50px;
+    box-shadow: 10px 0 10px rgba(red, green, blue, alpha);
+}
+
+aside {
+    background-color: purple;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    bottom: 0px;
+    left: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+footer {
+    margin: 0;
+    padding: 0px;
+    background-color: rebeccapurple;
+    position: absolute;
+    left: 0px;
+    top: 85%;
+    right: 20px;
+    bottom: 0PX;
+    border: 5px solid black;
+    border-bottom: 5px;
+    box-sizing: border-box;
+}
